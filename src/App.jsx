@@ -19,7 +19,7 @@ function App() {
     <div className="container">
       <div className="content">
         <h3>Speech To Text React Libary</h3>
-        <h5>Active Language {language} </h5>
+        <h5 style={{marginTop:10}}>Active Language {language} </h5>
         <div className="btn-container">
           <button className="start"
           onClick={
